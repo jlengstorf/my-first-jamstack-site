@@ -1,30 +1,40 @@
-<style>
-  html {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-      Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-      'Segoe UI Symbol';
-    font-size: 18px;
-  }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Jamstack Site</title>
+  </head>
+  <body>
+    <style>
+      html {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+          'Segoe UI Symbol';
+        font-size: 18px;
+      }
 
-  h1 {
-    color: purple;
-  }
+      h1 {
+        color: purple;
+      }
 
-  p {
-    color: #444;
-  }
-</style>
+      p {
+        color: #444;
+      }
+    </style>
 
-<h1>Hi Jamstack Conf!</h1>
-<p>Isn't this fun?</p>
-<button>Click Me</button>
+    <h1>Hi Jamstack Conf!</h1>
+    <p>Isn't this fun?</p>
+    <button>Click Me</button>
 
-<script>
-  function init() {
-    document.querySelector('button').addEventListener('click', () => {
-      alert('hi!');
-    });
-  }
+    <script>
+      function init() {
+        document.querySelector('button').addEventListener('click', () => {
+          alert('hi!');
+        });
+      }
 
-  init();
-</script>
+      init();
+    </script>
+  </body>
+</html>
