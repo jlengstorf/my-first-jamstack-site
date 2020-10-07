@@ -1,9 +1,17 @@
 <style>
-  h1 {
-    color: purple;
+  html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
       Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
       'Segoe UI Symbol';
+    font-size: 18px;
+  }
+
+  h1 {
+    color: purple;
+  }
+
+  p {
+    color: #444;
   }
 </style>
 
@@ -12,7 +20,11 @@
 <button>Click Me</button>
 
 <script>
-  document.querySelector('button').addEventListener('click', () => {
-    alert('hi!');
-  });
+  function init() {
+    document.querySelector('button').addEventListener('click', () => {
+      alert('hi!');
+    });
+  }
+
+  init();
 </script>
