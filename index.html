@@ -11,5 +11,18 @@
     <h1>Hi Jamstack Conf!</h1>
     <p>Isn't this fun?</p>
     <button>Click Me</button>
+
+    <h2>Contact Me</h2>
+    <form name="contact" method="POST" data-netlify="true">
+      <label for="name"
+        >Name
+        <input type="text" name="name" id="name" />
+      </label>
+      <label for="message"
+        >Message
+        <textarea id="message" name="message"></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
   </body>
 </html>
